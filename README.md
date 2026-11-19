@@ -1,47 +1,55 @@
-# Portafolio Personal - Jhoan Sebastián Franco Ruiz
+# Personal Portfolio - Jhoan Sebastián Franco Ruiz
 
-Portafolio web personal desarrollado con React + TypeScript + Vite.
+Personal portfolio website built with React + TypeScript + Vite.
 
-## 🚀 Stack Tecnológico
+🔗 **Live site:** [portafolio-livid-psi-25.vercel.app](https://portafolio-livid-psi-25.vercel.app/)
+
+## 🚀 Tech Stack
 
 **Frontend:** React 18, TypeScript, Vite, Bootstrap 5, React Bootstrap, CSS3  
-**Formulario:** EmailJS, SweetAlert2  
-**Otros:** i18n (Español/Inglés), React Context API
+**Contact form:** EmailJS, SweetAlert2  
+**Other:** i18n (Spanish / English / French), React Context API
 
-## 📋 Características
+## 📋 Features
 
-- Diseño responsive y moderno
-- Soporte multiidioma (ES/EN/FR)
-- Formulario de contacto con envío automático y confirmación
-- Navegación suave entre secciones
-- CV descargable según idioma
-- Integración con redes sociales
+- Modern, responsive design
+- Multi-language support (ES / EN / FR)
+- Contact form with automatic sending and confirmation
+- Smooth scrolling between sections
+- Downloadable CV in each language
+- Social media integration
 
-npm run build      # Build de producción
+## ⚙️ Getting Started
 
-## 📁 Estructura
+```bash
+npm install        # Install dependencies
+npm run dev        # Start the development server
+npm run build      # Production build
+```
+
+## 📁 Project Structure
 
 ```
 src/
-├── components/        # Componentes React
-│   ├── common/        # Reutilizables (Button, CardProjects, etc.)
+├── components/        # React components
+│   ├── common/        # Reusable components (Button, CardProjects, etc.)
 │   ├── layout/        # Layout (Header, Footer, Navigation)
-│   └── sections/      # Secciones (MainBanner, About, Services, Projects, Contact)
+│   └── sections/      # Page sections (MainBanner, About, Services, Projects, Contact)
 ├── hooks/             # Custom hooks
 ├── context/           # React Context (LanguageContext)
-├── data/              # Datos y traducciones
-├── styles/            # CSS global y variables
+├── data/              # Content and translations
+├── styles/            # Global CSS and variables
 ├── types/             # TypeScript types
-└── utils/             # Helpers y validadores
+└── utils/             # Helpers and validators
 ```
 
-## � Personalización
+## 🎨 Customization
 
-**Datos personales:** `src/data/personalData.ts`  
-**Traducciones:** `src/data/translations.ts`  
-**Estilos/colores:** `src/styles/variables.css`  
-**CVs:** Añadir PDFs en `public/assets/resumes/` con nombres según idioma
+**Personal data:** `src/data/personalData.ts`  
+**Translations:** `src/data/translations.ts`  
+**Styles / colors:** `src/styles/variables.css`  
+**CVs:** Add PDFs to `public/assets/resumes/`, named by language
 
 ---
 
-**Desarrollado por Jhoan Sebastián Franco Ruiz**
+**Developed by Jhoan Sebastián Franco Ruiz**
